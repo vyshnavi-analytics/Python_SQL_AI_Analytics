@@ -1,81 +1,61 @@
-## Python SQL AI – Recruitment Analytics
+# Recruitment KPI Analytics – Python | SQL | AI
 
-End-to-end analytics project analysing recruiter performance and hiring efficiency using Python, SQL, and AI-assisted workflows.
-
-## Problem Statement
-
-Recruitment teams generate large volumes of hiring data but often lack clear visibility into:
-
-- Recruiter performance  
-- Conversion efficiency  
-- Time to hire  
-- Cost per hire  
-
-This project analyses recruitment data and transforms it into actionable insights for better hiring decisions.
+## Project Overview
+This project analyses recruitment performance data and builds key hiring KPIs using Python and SQL.  
+The goal is to track recruiter efficiency, hiring conversion, cost optimisation, and time-to-hire.
 
 ## Tools & Technologies
-
 - Python (Pandas, NumPy)
 - SQL
 - Google Colab
-- CSV (data storage)
 - GitHub
+  
+## Dataset
+Recruitment dataset containing:
+- Recruiter
+- Applications
+- Hires
+- Conversion %
+- Average Time to Hire
+- Average Cost per Hire
 
-## Workflow
+## Project Workflow
 
-1. Imported recruitment dataset into Python  
-2. Performed data cleaning  
-   - Handled null values  
-   - Corrected data types  
-3. Created derived metrics:
-   - Conversion %
-   - Cost per hire  
-4. Analysed recruiter-wise performance  
-5. Exported final results as CSV  
-6. Wrote SQL queries for business analysis  
+### Data Cleaning
+- Removed null rows
+- Fixed data types
+- Renamed columns
 
-## Key Business Metrics
-
+### KPI Calculations
 - Total Applications
 - Total Hires
 - Conversion Rate
 - Average Time to Hire
-- Cost per Hire
-- Recruiter Performance Comparison
+- Average Cost per Hire
 
-## Key Insights
+### Performance Analysis
+- Recruiter-wise hiring efficiency
+- Cost vs hiring output comparison
+- Time-to-hire insights
 
-- Identified top-performing recruiter based on highest hires and conversion rate  
-- Highlighted recruiters with high cost per hire  
-- Detected low-efficiency hiring pipelines  
-- Enabled data-driven recruitment optimization  
+## Key Business Insights
+- Identified top-performing recruiters based on conversion rate
+- Highlighted high cost-per-hire areas
+- Analysed hiring speed across recruiters
 
-## Output
+## SQL Analysis
+SQL queries used for:
+- KPI aggregation
+- Recruiter performance comparison
 
-Final analysed dataset:
-
-
-This file contains recruiter-wise performance metrics ready for dashboarding in Power BI / Tableau.
-
-## Business Impact
-
-This analysis helps:
-
-- Improve hiring efficiency  
-- Reduce recruitment cost  
-- Track recruiter productivity  
-- Make faster data-driven hiring decisions  
-
-## Future Enhancements
-
-- Power BI / Tableau dashboard
-- Automated data pipeline
-- Advanced hiring trend analysis
-
-## Author
-
-**Vyshnavi M**  
-Aspiring Data Analyst | SQL | Python | Power BI | HR Analytics
-
-## 📂 Project Structure
-
+## Project Structure
+```
+Python_SQL_AI_Analytics/
+│── Recruitment_KPI_Analysis.ipynb
+│── recruitment_kpi.sql
+│── data/
+│── outputs/
+│── README.md
+```
+## 🚀 Project Outcome
+Built an end-to-end recruitment analytics solution that converts raw hiring data into actionable insights for business decision-making.
