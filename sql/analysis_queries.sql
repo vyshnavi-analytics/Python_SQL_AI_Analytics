@@ -5,6 +5,12 @@ SELECT recruiter,
 FROM recruitment_data
 GROUP BY recruiter;
 
+-- Best recruiter by hires
+SELECT recruiter, SUM(hires)
+FROM recruitment
+GROUP BY recruiter
+ORDER BY 2 DESC;
+
 -- Conversion rate
 SELECT recruiter,
        SUM(hires) * 1.0 / SUM(applications) AS conversion_rate
